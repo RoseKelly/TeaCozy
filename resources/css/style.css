@@ -1,0 +1,178 @@
+* {
+  font-family: Helvetica;
+  background-color: black;
+  color: seashell;
+}
+
+html {
+  font-size: 22px;
+  text-align: center;
+  opacity: 0.9;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.02em solid seashell;
+  position: fixed;
+/*  z-index: 1;*/
+  width: 100%;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+  opacity: 0.9;
+  margin: 10px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+header li {
+  margin: 0 1em;
+}
+
+.content-width-1 {
+  display: flex;
+  flex-direction: column;
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 3.2em;
+}
+
+.main-header-block {
+  /*padding-top: 150px;*/
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-size: cover;
+  height: 700px;
+  border: 0.2em solid yellow;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-mission {
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*margin: auto;*/
+  border: 0.2em solid red;
+  width: 100%;
+  
+}
+
+.our-mission-content {
+  display: flex;
+}
+
+.content-width-2 {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: 2em auto;
+  border: 0.2em solid blue;
+}
+
+.img-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 0.2em solid pink;
+  margin: 40px auto 0 auto;
+  width: 100%;
+
+
+}
+
+.img-block img {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  /*justify-content: space-between;*/
+  /*margin: 40px auto 0 auto;*/
+
+}
+
+.content-width-3 {
+  display: flex;
+  flex-direction: column;
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 3.2em;
+  border: 0.2em dashed gray;
+}
+
+.third-header-block {
+  /*padding-top: 150px;*/
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-size: cover;
+  height: 500px;
+  border: 0.2em solid hotpink;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-row {
+  display: flex;
+  flex-direction: row;
+  border: 0.2em solid yellow;
+}
+
+.location-each {
+  margin: 2em;
+  border: 0.2em solid yellow;
+}
+
+
+
+
+
+
+
+
+
+/*.container {
+    border: 0.2em dashed red;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0 0 0;
+    border: 0.2em solid orange;
+}
+
+.product-image {
+    border: 4px solid black;
+    padding: 2em 0;
+    height: 7.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2em dotted yellow
+}
+
+.product-image img {
+    max-width: 5em;
+    padding: 2.75em;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
